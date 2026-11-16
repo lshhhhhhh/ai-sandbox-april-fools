@@ -1,0 +1,4 @@
+[
+ {"type": "function", "function": {"name": "web_search", "description": "联网搜索，返回最新的网页和新闻结果（标题、来源、时间、摘要）", "parameters": {"type": "object", "properties": {"query": {"type": "string", "description": "搜索关键词"}}, "required": ["query"]}}},
+ {"type": "function", "function": {"name": "open_page", "description": "打开一条搜索结果，读取网页全文", "parameters": {"type": "object", "properties": {"url": {"type": "string"}}, "required": ["url"]}}}
+]
